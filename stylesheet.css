@@ -1,0 +1,75 @@
+body {
+    position: relative;
+    float: none;
+    height: 125em;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 100%); 
+    background-repeat: no-repeat;
+}
+
+.main {
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+}
+
+.img {
+   margin: auto;
+   width: fit-content;
+   height: fit-content;
+}
+
+
+div {
+    border: 5px outset black;
+    background-color: grey;
+    width: 10em;
+}
+
+.nav {
+    line-height: 0.1em;
+}
+
+/*nav p {
+    font-size: 0.8em;
+}*/
+
+@font-face {
+    font-family: 'w95fa';
+    src: url('fonts/W95FA/w95fa.woff2') format('woff2'),
+    url('fonts/W95FA/w95fa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h4 {
+      font-family: 'w95fa';
+  }
+
+  p {
+    font-family: 'w95fa'; 
+  }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+      color: blue;
+  }
+
+  .clickable:link {
+      text-decoration: underline;
+      color:blue
+  }
+
+  .clickable:visited {
+    text-decoration: underline;
+    color: purple;
+  }
