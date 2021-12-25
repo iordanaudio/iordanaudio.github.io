@@ -3,9 +3,11 @@ body {
     float: none;
     height: 125em;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 100%); 
+    /*background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 100%); */
+    background: #008080;
     background-repeat: no-repeat;
 }
+
 
 .main {
     margin: auto;
@@ -15,9 +17,59 @@ body {
 
 .img {
    margin: auto;
-   width: fit-content;
+   width: 50%;
    height: fit-content;
+   background-color: grey;
 }
+
+.img iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+iframe {
+  border: 5px outset black;
+}
+
+.card {
+  margin: auto;
+  width: 50%;
+  height: 2.35em;
+  background: #000080;
+}
+
+.card button{
+  /*position:absolute;
+  right:3px;
+  top:3px;*/
+  margin:-1em 2px 2px 0;
+  float:right;
+  width:2em;
+  height:2.3em;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:0;
+  font-size:0.7em;
+  font-weight:bold;
+  font-family:Tahoma;
+  text-align:center;
+}
+
+.card p {
+  color: white;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card h4 {
+  color: white;
+}
+
 
 
 div {
@@ -42,9 +94,14 @@ div {
     font-style: normal;
   }
 
-  h4 {
-      font-family: 'w95fa';
+  h3 {
+    font-family: 'w95fa';
   }
+
+  h4 {
+    font-family: 'w95fa';
+  }
+  
 
   p {
     font-family: 'w95fa'; 
