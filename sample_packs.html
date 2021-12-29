@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    function minimize5() {
+      document.getElementById("5").style.display = "none"; 
+}
+  </script>
+  <script>
+    function maximize5() {
+      document.getElementById("5").style.display = "block"; 
+}
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iordan Audio</title>
@@ -17,9 +27,9 @@
         <p><a href="contact.html">Contact</a></p>
       </div>
       <div class="card">
-        <h4>Proceed Sample Pack Vol.1<button>X</button></h4>
+        <h4>Proceed Sample Pack Vol.1<button onclick="minimize5()">X</button><button onclick="maximize5()">^</button></h4>
       </div>
-      <div class="img">
+      <div class="img" id="5">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/s200BE8-lLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>This is the first volume of the proceed glitch pack. Featuring 333 garbled textures and nasty slices of digital computer madness. These sounds will provide the necessecary crushed bit grit and unearthly tones for any producer looking to dirty up their sound. You can purchase this pack via my gumroad <a class="clickable" href="https://iordanaudio.gumroad.com/l/XKejR">here.</a></p>
       </div>

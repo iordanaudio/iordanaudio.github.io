@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    function minimize() {
+      document.getElementById("1").style.display = "none"; 
+    }
+  </script>
+  <script>
+    function maximize() {
+      document.getElementById("1").style.display = "block"; 
+    }
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iordan Audio</title>
@@ -21,9 +31,9 @@
     <img src="images/artistprofile.jpg" alt="" style="width:400px;height:360px;">
   </div>//-->
   <div class="card">
-    <h4>About<button>X</button></h4>
+    <h4>About<button onclick="minimize()">X</button><button onclick="maximize()">^</h4>
   </div>
-  <div class="img">
+  <div class="img" id="1">
     <iframe width="400px" height="300px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/793387078&color=%232b4339&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
     <p>Richard Iordan is a Dublin-born, London-based experimental electronic music producer, blending washed out memories of yesteryear with haunting, dystopic atmospheres and drones evoking a dissociative sense of falling from one’s own physical self.</p>
   </div>

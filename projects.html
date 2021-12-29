@@ -1,6 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    function minimize2() {
+      document.getElementById("2").style.display = "none"; 
+    }
+  </script>
+  <script>
+    function maximize2() {
+      document.getElementById("2").style.display = "block"; 
+    }
+  </script>
+    <script>
+    function minimize3() {
+      document.getElementById("3").style.display = "none"; 
+    }
+  </script>
+  <script>
+    function maximize3() {
+      document.getElementById("3").style.display = "block"; 
+    }
+  </script>
+    <script>
+    function minimize4() {
+      document.getElementById("4").style.display = "none"; 
+    }
+  </script>
+  <script>
+    function maximize4() {
+      document.getElementById("4").style.display = "block"; 
+    }
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iordan Audio</title>
@@ -17,9 +47,9 @@
         <p><a href="contact.html">Contact</a></p>
       </div>
       <div class="card">
-        <h4>Paranormal Party<button>X</button></h4>
+        <h4>Paranormal Party<button onclick="minimize2()">X</button><button onclick="maximize2()">^</button></h4>
       </div>
-      <div class="img">
+      <div class="img" id="2">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/TfjZsTPvxKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>This was a joint project between me and my good friend and collaborator Tim Golton, my task within this project was to create a piece using only sounds found in the kitchen.</p>
       </div>
@@ -32,9 +62,9 @@
       <br>
       <br>
       <div class="card">
-        <h4>Focus Live Performance<button>X</button></h4>
+        <h4>Focus Live Performance<button onclick="minimize3()">X</button><button onclick="maximize3()">^</button></h4>
       </div>
-      <div class="img">
+      <div class="img" id="3">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CHxciy9l81Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>A hybrid workflow live performance of my debut release "Focus" on all major streaming platforms.</p>
       </div>
@@ -47,9 +77,9 @@
       <br>
       <br>
       <div class="card">
-        <h4>Exit Sign<button>X</button></h4>
+        <h4>Exit Sign<button onclick="minimize4()">X</button><button onclick="maximize4()">^</button></h4>
       </div>
-      <div class="img">
+      <div class="img" id="4">
         <iframe src="https://open.spotify.com/embed/track/59ycBgg2p12YWaFEpvrNYN" width="400px" height="380px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         <p>Assistant Mix Engineer and emotional studio support on this amazing track performed by <a class="clickable" href="https://www.curtisbrown.co.uk/client/dan-whitlam">Dan Whitlam</a> and produced by <a class="clickable" href="https://frederickjames.uk">Frederick James.</a></p>
       </div>

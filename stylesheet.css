@@ -20,6 +20,10 @@ body {
    width: 50%;
    height: fit-content;
    background-color: grey;
+   overflow: hidden;
+   /* 16:9 aspect ratio */
+   /*padding-top: 56.25%;*/
+   position: relative;
 }
 
 .img iframe {
