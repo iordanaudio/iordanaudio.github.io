@@ -19,7 +19,7 @@ body {
    margin: auto;
    width: 50%;
    height: fit-content;
-   background-color: grey;
+   background-color: rgb(192,192,192);
    overflow: hidden;
    /* 16:9 aspect ratio */
    /*padding-top: 56.25%;*/
@@ -34,7 +34,7 @@ body {
 }
 
 iframe {
-  border: 5px outset black;
+  border: 5px outset rgb(128,128,128);
 }
 
 .card {
@@ -77,8 +77,8 @@ iframe {
 
 
 div {
-    border: 5px outset black;
-    background-color: grey;
+    border: 5px outset rgb(145,145,145);
+    background-color: rgb(192,192,192);
     width: 10em;
 }
 
