@@ -24,13 +24,17 @@ body {
    /* 16:9 aspect ratio */
    /*padding-top: 56.25%;*/
    position: relative;
+   min-width: 256px;
 }
+
 
 .img iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1em;
+  width: 100%;
+  max-width: 512px;
 }
 
 iframe {
@@ -42,6 +46,8 @@ iframe {
   width: 50%;
   height: 2.35em;
   background: #000080;
+  position: relative;
+  min-width: 256px;
 }
 
 .card button{
