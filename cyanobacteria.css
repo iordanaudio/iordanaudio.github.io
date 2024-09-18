@@ -14,7 +14,7 @@
 
 
 /* start dark mode styling */
-	@media (prefers-color-scheme: dark) {
+	/*@media (prefers-color-scheme: dark) {
 		:root {
 			--text: white;
 			--border: #5a7678;
@@ -27,7 +27,7 @@
 		header {
 			background: url('***dark mode banner image***');
 		}
-	}
+	}*/
 /* end dark mode styling */
 
 
