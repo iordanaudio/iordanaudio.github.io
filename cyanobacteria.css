@@ -212,3 +212,7 @@ a:visited {
 	font-style: normal;
 	font-weight: bold;
 }
+
+link {
+	opacity: 0.0;
+}
