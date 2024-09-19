@@ -53,12 +53,12 @@ img {
 
 iframe {
 	width: 100%;
-	height: 500px;
+	height: auto;
 }
 
 .spotify {
 	width: 100%;
-	height:380px
+	height: auto;
 }
 
 @media only screen and (max-width: 500px) {
